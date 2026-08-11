@@ -17,8 +17,11 @@ A personal Claude Code plugin marketplace.
 ## Install a plugin from here
 
 ```bash
-/plugin install cpp-poco-class-gen@claude-plugins
+/plugin install cpp-poco-class-gen@chelenkoff-plugins
 ```
+
+(`chelenkoff-plugins` is this marketplace's internal name, set in `.claude-plugin/marketplace.json` —
+that's what goes after the `@`, not the repo name.)
 
 ## Adding a new plugin to this marketplace
 
