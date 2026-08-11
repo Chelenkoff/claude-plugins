@@ -1,0 +1,18 @@
+{
+  "name": "claude-plugins",
+  "owner": {
+    "name": "Chelenkoff",
+    "url": "https://github.com/Chelenkoff"
+  },
+  "description": "Personal marketplace of Claude Code plugins.",
+  "plugins": [
+    {
+      "name": "cpp-poco-class-gen",
+      "source": {
+        "source": "github",
+        "repo": "Chelenkoff/cpp-poco-class-gen"
+      },
+      "description": "Generate a C++11 getter/setter class (.h and .cpp) from a class name plus member name:type pairs."
+    }
+  ]
+}
