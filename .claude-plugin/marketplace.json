@@ -13,6 +13,14 @@
         "repo": "Chelenkoff/cpp-poco-class-gen"
       },
       "description": "Generate a C++11 getter/setter class (.h and .cpp) from a class name plus member name:type pairs."
+    },
+    {
+      "name": "pbkdf2-gen",
+      "source": {
+        "source": "github",
+        "repo": "Chelenkoff/pbkdf2-gen"
+      },
+      "description": "Generate, derive, and verify PBKDF2-HMAC client secret hashes (raw-text secret/salt, configurable iterations/key size) plus matching client IDs."
     }
   ]
 }

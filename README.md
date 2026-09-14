@@ -13,6 +13,7 @@ A personal Claude Code plugin marketplace.
 | Plugin | What it does |
 |---|---|
 | [`cpp-poco-class-gen`](https://github.com/Chelenkoff/cpp-poco-class-gen) | Generates a C++11 getter/setter class (`.h` + `.cpp`) from a class name and a list of `name:type` members — e.g. `Person name:string age:int`. Members are named `m_<prefix><PascalCase>` (`m_sName`, `m_nAge`, `m_fScore`, `m_bActive`, `m_pOwner`, ...); scalars/pointers pass by value, everything else by `const&`. See that repo's own README for the full naming table and examples. |
+| [`pbkdf2-gen`](https://github.com/Chelenkoff/pbkdf2-gen) | Generates, derives, and verifies PBKDF2-HMAC client secret hashes — secret and salt are treated as raw text (not hex-decoded), with configurable iterations and key size — and generates matching client IDs in the `<hex>.<env>.<system>.<platform>` format. See that repo's own README for the CLI reference and examples. |
 
 ## Install a plugin from here
 
